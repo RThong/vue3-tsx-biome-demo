@@ -1,4 +1,3 @@
-import { defineComponent } from "vue"
 import vueLogo from "./assets/vue.svg"
 import HelloWorld from "./components/HelloWorld.tsx"
 

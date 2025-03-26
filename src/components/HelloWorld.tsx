@@ -1,5 +1,3 @@
-import { defineComponent, ref } from "vue"
-
 const HelloWorld = defineComponent(
 	(props: { msg: string }) => {
 		// 就像在 <script setup> 中一样使用组合式 API
