@@ -63,8 +63,8 @@ const HelloWorld = defineComponent(
 	},
 	// 目前仍然需要手动声明运行时的 props
 	{
-		props: ["msg"],
-	},
+		props: ["msg"]
+	}
 )
 
 export default HelloWorld
