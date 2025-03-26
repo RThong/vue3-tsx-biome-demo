@@ -1,9 +1,9 @@
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref } from "vue"
 
 const HelloWorld = defineComponent(
 	(props: { msg: string }) => {
 		// 就像在 <script setup> 中一样使用组合式 API
-		const count = ref(0);
+		const count = ref(0)
 
 		return () => (
 			<div class="text-center">
@@ -15,7 +15,7 @@ const HelloWorld = defineComponent(
 					<button
 						type="button"
 						onClick={() => {
-							count.value++;
+							count.value++
 						}}
 						class="rounded-lg border border-transparent px-5 py-2.5 bg-[#f9f9f9] dark:bg-slate-700 hover:border-[#646cff] dark:hover:border-[#42b883] transition-colors duration-300"
 					>
@@ -59,12 +59,12 @@ const HelloWorld = defineComponent(
 					Click on the Vite and Vue logos to learn more
 				</p>
 			</div>
-		);
+		)
 	},
 	// 目前仍然需要手动声明运行时的 props
 	{
 		props: ["msg"],
 	},
-);
+)
 
-export default HelloWorld;
+export default HelloWorld

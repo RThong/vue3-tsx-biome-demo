@@ -1,6 +1,6 @@
-import { defineComponent } from "vue";
-import vueLogo from "./assets/vue.svg";
-import HelloWorld from "./components/HelloWorld.tsx";
+import { defineComponent } from "vue"
+import vueLogo from "./assets/vue.svg"
+import HelloWorld from "./components/HelloWorld.tsx"
 
 const App = defineComponent(() => {
 	return () => (
@@ -26,7 +26,7 @@ const App = defineComponent(() => {
 				<HelloWorld msg="Vite + Vue" />
 			</div>
 		</div>
-	);
-});
+	)
+})
 
-export default App;
+export default App

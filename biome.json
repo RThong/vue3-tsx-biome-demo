@@ -5,10 +5,9 @@
 		"clientKind": "git",
 		"useIgnoreFile": false
 	},
-
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": ["tsconfig.node.json", "tsconfig.app.json", "tsconfig.json"]
 	},
 	"formatter": {
 		"enabled": true,
@@ -25,7 +24,7 @@
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "double"
+			"semicolons": "asNeeded"
 		}
 	}
 }
