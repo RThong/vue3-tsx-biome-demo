@@ -1,7 +1,11 @@
+import { Button } from "ant-design-vue"
+import AntdTest from "./AntdTest"
+
 const HelloWorld = defineComponent(
 	(props: { msg: string }) => {
 		// 就像在 <script setup> 中一样使用组合式 API
 		const count = ref(0)
+		const visible = ref(false)
 
 		return () => (
 			<div class="text-center">
@@ -56,6 +60,16 @@ const HelloWorld = defineComponent(
 				<p class="mt-16 text-gray-400">
 					Click on the Vite and Vue logos to learn more
 				</p>
+
+				<Button
+					onClick={() => {
+						console.log("visible.value:", visible.value)
+						visible.value = !visible.value
+					}}
+				>
+					{visible.value ? "hide form" : "show form"}
+				</Button>
+				{visible.value && <AntdTest />}
 			</div>
 		)
 	},

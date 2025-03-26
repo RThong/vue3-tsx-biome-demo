@@ -12,6 +12,7 @@
 		"check": "biome check --write ."
 	},
 	"dependencies": {
+		"ant-design-vue": "^4.2.6",
 		"tailwindcss": "^4.0.16",
 		"vue": "^3.5.13"
 	},
