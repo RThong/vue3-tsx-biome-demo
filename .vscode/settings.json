@@ -1,0 +1,21 @@
+{
+	"prettier.enable": false,
+	"eslint.enable": false,
+	"editor.formatOnSave": true,
+
+	// Auto fix
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+
+	"editor.defaultFormatter": "biomejs.biome",
+
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}
